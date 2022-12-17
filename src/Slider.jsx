@@ -24,7 +24,6 @@ const Slider = () => {
     
     </div>
 
-    <h1>hellp</h1>
     </div>
   )
 }
