@@ -1,9 +1,10 @@
+import Slider from "./Slider";
 
 function App() {
   return (
     <div >
-<h1>Hello Santosh !!!</h1>
-    </div>
+    <Slider/>
+     </div>
   );
 }
 
