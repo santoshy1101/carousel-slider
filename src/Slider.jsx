@@ -20,7 +20,6 @@ const Slider = () => {
     ]
   return (
     <div >
-    <h1>Crousel Slider</h1>
     <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
     <div style={{backgroundImage: `url(${slide[1].url})`}} className='w-full h-full duration-500 bg-cover rounded-2xl '>
     
