@@ -18,16 +18,14 @@ const Slider = () => {
             url: 'https://images.unsplash.com/photo-1528988296565-3cd70e150617?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fDEwODBwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60'
         },
     ]
-  return (
-
-    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
+  return <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
     <div style={{backgroundImage: `url(${slide[1].url})`}} className='w-full h-full duration-500 bg-cover rounded-2xl '>
     
     </div>
 
     </div>
 
-  )
+
 }
 
 export default Slider
