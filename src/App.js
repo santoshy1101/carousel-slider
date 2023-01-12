@@ -1,3 +1,4 @@
+import Axios from "./Axios";
 import Slider from "./Slider";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
    direction="right" >Crousel Slider!!!!!! Created By Santosh </marquee>
     </div>
     <Slider/>
+    <Axios/>
      </div>
   );
 }

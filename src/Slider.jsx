@@ -57,7 +57,7 @@ const Slider = () => {
     
    {
     slide.map((slide,slideIndex)=>(
-        <div key={slideIndex} className='text-5xl cursor-pointer ' onClick={()=>goToSlide(slideIndex)}>
+        <div key={slideIndex} className='text-5xl cursor-pointer ' onClick={()=>goToSlide(slideIndex)}
         <RxDotFilled />
         </div>
     ))
