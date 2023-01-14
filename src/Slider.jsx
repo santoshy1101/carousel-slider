@@ -56,7 +56,7 @@ const Slider = () => {
    <div className='flex justify-center py-2 top-4'>
     
    {
-    slide.map((slide,slideIndex)=>(
+    slide.map((slide,slideIndex)
         <div key={slideIndex} className='text-5xl cursor-pointer ' onClick={()=>goToSlide(slideIndex)}>
         <RxDotFilled />
         </div>
