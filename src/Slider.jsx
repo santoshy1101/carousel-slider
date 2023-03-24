@@ -39,7 +39,7 @@ const Slider = () => {
         setCurrentIndex(slideIndex)
     }
     
-  return <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group hover:scale-110 duration-500'>
+  return <div className='max-w-[1400px] h-[780px] w-full m-auto py-[200px]  relative group hover:scale-110 duration-500 px-[200px]'>
     <div style={{backgroundImage: `url(${slide[currentIndex].url})`}} className='w-full h-full duration-1000 bg-cover rounded-2xl'>
     
     </div>
@@ -55,14 +55,17 @@ const Slider = () => {
     </div>
    <div className='flex justify-center py-2 top-4'>
     
-   {
+{/*    {
     slide.map((slide,slideIndex)
         <div key={slideIndex} className='text-5xl cursor-pointer ' onClick={()=>goToSlide(slideIndex)}>
         <RxDotFilled />
         </div>
     ))
 }
-   </div>
+ */}
+
+ 
+//    </div>
     </div>
 
 
